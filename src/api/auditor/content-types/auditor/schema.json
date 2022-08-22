@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "auditors",
+  "info": {
+    "singularName": "auditor",
+    "pluralName": "auditors",
+    "displayName": "Auditor",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "unique": true,
+      "required": true
+    }
+  }
+}
