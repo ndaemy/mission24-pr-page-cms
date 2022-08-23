@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cheer_up_messages",
+  "info": {
+    "singularName": "cheer-up-message",
+    "pluralName": "cheer-up-messages",
+    "displayName": "Cheer-up message"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": false,
+      "unique": true,
+      "private": true
+    },
+    "message": {
+      "type": "richtext"
+    }
+  }
+}
