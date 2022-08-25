@@ -4,7 +4,8 @@
   "info": {
     "singularName": "cheer-up-message",
     "pluralName": "cheer-up-messages",
-    "displayName": "Cheer-up message"
+    "displayName": "Cheer-up message",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -18,7 +19,7 @@
     "phone": {
       "type": "string",
       "required": false,
-      "unique": true,
+      "unique": false,
       "private": true
     },
     "message": {
