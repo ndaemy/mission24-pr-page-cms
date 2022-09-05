@@ -30,7 +30,8 @@
       "type": "string",
       "required": true,
       "unique": true,
-      "regex": "^010-\\d{4}-\\d{4}$"
+      "regex": "^010-\\d{4}-\\d{4}$",
+      "private": true
     },
     "type": {
       "type": "enumeration",
