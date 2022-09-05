@@ -29,7 +29,8 @@
     "participants": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::participant.participant"
+      "target": "api::participant.participant",
+      "mappedBy": "service"
     }
   }
 }

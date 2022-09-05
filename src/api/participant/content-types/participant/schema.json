@@ -42,6 +42,12 @@
       ],
       "default": "member",
       "required": true
+    },
+    "service": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::service.service",
+      "inversedBy": "participants"
     }
   }
 }
